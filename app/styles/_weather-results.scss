@@ -1,0 +1,58 @@
+h1{
+  text-align: center;
+}
+
+.cities-found {
+  background-color: none;
+}
+
+// current.html styles
+.current-forecast {
+  background-color: rgb(238, 238, 238);
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 200px;
+}
+
+.buttons {
+  .save-message{
+    font-size: 20px;
+    float: right;
+    color: transparent;
+    text-indent: -450px;
+  }
+}
+
+.buttons:hover {
+  .save-message {
+    color: black;
+    font-weight: bold;
+  }
+}
+// all dl tags displaying weather information. transition increase size
+dl:hover {
+  transform: scale(1.1);
+}
+
+// forecast.html
+dl.weather-forecast {
+  display: inline-block;
+  padding: 10px;
+  background-color: rgb(238, 238, 238);
+  margin: 10px;
+  min-width: 200px;
+  border-radius: 5px;
+
+  .weatherIcons {
+    img{
+      min-height: 128px;
+      min-width: 128px;
+      max-height: 128px;
+      max-width: 128px;
+    }
+  }
+
+  dt{
+    font-size: 15px;
+  }
+}
